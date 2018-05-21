@@ -1,4 +1,15 @@
-<?php function pdf_shortcode() {
+<?php
+
+/*
+Plugin Name: PDF Shortcode
+Plugin URI: https://davidverne.com/
+Description: Creates a shortcode for outputting PDF's attached to posts. Use shortcode: [attach_pdf]
+Author: David Verne
+Version: 1.0
+Author URI: https://davidverne.com/
+*/
+
+function pdf_shortcode() {
 
 	 $args = array(
 	'post_type' => 'attachment',
